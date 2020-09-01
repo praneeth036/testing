@@ -3,9 +3,7 @@ import { UserConsumer } from './context';
 
 
 class ComponentC extends React.Component{
-    constructor(props){
-        super(props);
-    }
+    
     render(){
         
         return (
