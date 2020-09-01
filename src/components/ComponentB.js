@@ -6,7 +6,7 @@ class ComponentB extends React.Component{
         
         return (
             <div>
-                <p>Component B </p>
+                
                 <ComponentC/>
             </div>
         );
