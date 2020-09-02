@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/medrex/static/css/main.050523cc.chunk.css",
+    "main.js": "/medrex/static/js/main.17c62bab.chunk.js",
+    "main.js.map": "/medrex/static/js/main.17c62bab.chunk.js.map",
+    "runtime-main.js": "/medrex/static/js/runtime-main.2eb1530a.js",
+    "runtime-main.js.map": "/medrex/static/js/runtime-main.2eb1530a.js.map",
+    "static/js/2.d09bf72e.chunk.js": "/medrex/static/js/2.d09bf72e.chunk.js",
+    "static/js/2.d09bf72e.chunk.js.map": "/medrex/static/js/2.d09bf72e.chunk.js.map",
+    "index.html": "/medrex/index.html",
+    "precache-manifest.35a0ea5cbe9fd17d7d4fdd397446721d.js": "/medrex/precache-manifest.35a0ea5cbe9fd17d7d4fdd397446721d.js",
+    "service-worker.js": "/medrex/service-worker.js",
+    "static/css/main.050523cc.chunk.css.map": "/medrex/static/css/main.050523cc.chunk.css.map",
+    "static/js/2.d09bf72e.chunk.js.LICENSE.txt": "/medrex/static/js/2.d09bf72e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2eb1530a.js",
+    "static/js/2.d09bf72e.chunk.js",
+    "static/css/main.050523cc.chunk.css",
+    "static/js/main.17c62bab.chunk.js"
+  ]
+}
