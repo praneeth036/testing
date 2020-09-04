@@ -1,8 +1,13 @@
 import React from 'react';
 import ComponentB from './ComponentB';
-import {useFormik} from 'formik'
+import Detaial from './detaial'
+import {useFormik} from 'formik';
+import { UserProvider } from './context.js';
+import Testrokz from './testrokz';
+import Display from './display';
 
 const ComponentA=()=>{
+    
 const formik=useFormik({
     initialValues:{
         patientno:'',
@@ -10,7 +15,9 @@ const formik=useFormik({
         discharge_date:'',
         doctor_id:'',
         remarks:'',
-        status:''
+        status:'',
+        support:'',
+        hospital_id:'12'
         
     },
     onSubmit:values=>{
@@ -19,7 +26,22 @@ const formik=useFormik({
 });
     return(
         <div>
+            <UserProvider value="">
             <ComponentB/>
+            <Detaial/>
+            <Testrokz/>
+            </UserProvider>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <Display/>
+            <br/><br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            
             <div className="container">
                 <h1 className="text-white bg-dark text-center">Patient record entry form</h1>
                 <br/>
@@ -63,6 +85,7 @@ const formik=useFormik({
                                 <label for="status"> Status</label>
                                 <input type="text" name="status" id="status" class="form-control" value={formik.values.status}
                     onChange={formik.handleChange}/>
+                    
                         </div>
                         
                                 <input type="submit" name="submit" value="Submit" class="btn btn-success">
@@ -71,6 +94,11 @@ const formik=useFormik({
                 </input>
 
             </form>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
         </div>
         </div>
         </div>
