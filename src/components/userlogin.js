@@ -81,7 +81,7 @@ class Userlogin extends React.Component{
         
         
         {this.state.message==='Invalid!'?<div className="alert alert-danger" role="alert">
-  <strong>Oh snap! </strong>No User Exists
+  <strong>Oh snap! </strong>Some error occured!
 </div>:null}
 {this.state.spin===1?<div class="spinner-border" role="status">
   <span class="sr-only">Loading...</span>
