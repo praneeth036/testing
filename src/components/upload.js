@@ -136,6 +136,9 @@ export default class Upload extends React.Component{
 
             <button onClick={this.uploadDetails} className="btn btn-success">Upload</button>
             <br/>
+            {this.state.spin===1?<div class="spinner-border" role="status">
+  <span class="sr-only">Loading...</span>
+</div>:null}
             <br/>{this.state.popup===1?<div class="alert alert-success">
   <strong>Success!</strong> Patient-info Recorded..
 </div>:null}
